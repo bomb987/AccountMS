@@ -8,18 +8,18 @@ public class Tb_inaccount {
     private double money;
     private String time;
     private String type;
-    private String hander;
+    private String handler;
     private String mark;
     public Tb_inaccount(){
         super();
     }
-    public Tb_inaccount(int id,double money,String time,String type,String hander,String mark){
+    public Tb_inaccount(int id,double money,String time,String type,String handler,String mark){
         super();
         this._id = id;
         this.money = money;
         this.time = time;
         this.type = type;
-        this.hander = hander;
+        this.handler = handler;
         this.mark = mark;
     }
     public int getid(){
@@ -46,11 +46,11 @@ public class Tb_inaccount {
     public void setType(String type){
         this.type = type;
     }
-    public String getHander(){
-        return hander;
+    public String getHandler(){
+        return handler;
     }
-    public void setHander(String hander){
-        this.hander = hander;
+    public void setHandler(String hander){
+        this.handler = hander;
     }
     public String getMark(){
         return mark;
